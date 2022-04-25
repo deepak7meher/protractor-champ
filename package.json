@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "tsc": "^2.0.4"
-  }
+  },
+  "name": "protractor-champ",
+  "version": "1.0.0",
+  "main": "spec.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepak7meher/protractor-champ.git"
+  },
+  "author": "Deepak Meher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepak7meher/protractor-champ/issues"
+  },
+  "homepage": "https://github.com/deepak7meher/protractor-champ#readme",
+  "description": "Protractor Demo to become champ"
 }
