@@ -9,6 +9,6 @@ describe('Protractor Demo App', function() {
             console.info("Selenium Setup");
             return "Super Calculator";
         }));
-        expect(element(by.xpath("//div//h3"))).toEqual('Super Calculator');
+        expect(element(by.xpath("//div//h3")).getText()).toEqual('Super Calculator');
     }, 3000);
 });
