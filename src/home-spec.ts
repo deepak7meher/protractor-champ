@@ -1,4 +1,4 @@
-import { browser } from "protractor";
+import { browser, element, by } from "protractor";
 
 describe('Protractor Demo App', function() {
     it('should have a title', function() {
@@ -7,6 +7,8 @@ describe('Protractor Demo App', function() {
   
         expect(browser.getTitle()).toEqual(new Promise(()=>{
             console.info("Selenium Setup");
+            return "Super Calculator";
         }));
-    });
+        expect(element(by.xpath("//div//h3"))).toEqual('Super Calculator');
+    }, 3000);
 });
